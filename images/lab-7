@@ -1,0 +1,57 @@
+4)function Drinking(a){
+	var x=new Date().getFullYear();
+	var y=x-a;
+			if (y >= 18) {
+				console.log('Legal');
+            }
+			else {
+				console.log('Illegal');
+            }
+}
+5)
+var array=[];
+var x;
+function findPrimes(Prime){
+		for (var a=2;a<= Prime; a++){
+			x=0;
+			for (var i=2; i<a; i++){
+				if (a%i ==0 && a!=i){
+					x=1;
+				}
+           	}
+			if (x==0){
+				array.push(a);
+			}	
+		}
+		console.log(array);
+}
+6)	
+var a=0;
+var b=1;
+var z=a+b;
+function findPrimes(output){
+	for (var divider =2; divider < output; divider ++){
+		if (output%divider ==0){
+			return false;	
+		}
+	}
+	return true;
+}
+function printPrimes(input){
+	for (var output=1; output <= input; output ++) {
+		if (findPrimes(output)){
+			while (z <= output) {
+			    z=a+b;
+			    a=b;
+			    b=z;
+			    if (z > output) {
+			      break;
+			    }
+			if (z == output){
+			    console.log(z);
+			}
+			}
+		}
+	}
+}
+

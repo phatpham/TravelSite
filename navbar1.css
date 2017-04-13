@@ -1,0 +1,31 @@
+.navbar {
+  position:absolute;
+  z-index:-1;
+}
+div.navbar ul {
+	position:absolute;		
+	top:20px;
+  right:150px;
+	width:100%;
+	list-style-type:none; 
+	margin:0;
+  padding: 0;
+	background-color:none;
+}
+ul li {
+	float: right;
+}
+li a {
+	display:inline-block;
+	color:white;
+	background-color:none;
+  font-family: 'Libre Baskerville', serif;
+  text-decoration:none;
+	font-size:16px;
+		padding: 20px 15px;
+
+	transition:0.8s ease;
+}
+li a:hover {
+	background-color:lightblue;
+}

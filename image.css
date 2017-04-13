@@ -1,0 +1,243 @@
+#special {
+    display: none;
+}
+#firstimage {
+        -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+  @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+.load {
+     opacity: 1;
+}
+#background-carousel{
+	position:absolute;
+	top:0;
+	width:100%;
+	height:100%;
+	z-index:-1;
+}
+.carousel,
+.carousel-inner{
+	width:100%;
+	height:100%;
+	z-index:0;
+	overflow:hidden;
+}
+.item {
+	width:100%;
+	height:100%;
+	background-position:center;
+	background-size:cover;
+	z-index:0;
+}
+ 
+#content-wrapper {
+	position:absolute;
+	top:0;
+	z-index:1 !important;
+	min-width:100%;
+	min-height:100%;
+}
+.well {
+    opacity:0.85;
+}
+img.logo { 
+    position:absolute;
+    top:0;
+    left:47%;
+    width:7%;
+    padding-bottom:20px;
+    
+}
+.hr1{
+    position:absolute;
+    top:90px;
+    z-index:1;
+    width:75%;
+    border-color:gray;
+}
+.slider1 {
+  position:absolute;
+  top:400px;
+  left:50px;
+  font-size:100px;
+}
+.carouseltext {
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size:30px;
+}
+.carouseltext2 {
+    color:lightgray;
+    display:block;
+    max-width: 60%;
+    font-family: 'Open Sans', sans-serif;
+    font-size:60px;
+}
+/* Section 2
+
+
+
+*/
+div.centerguide {
+    font-size:20px;
+}
+img.guidebook {
+    position:relative;
+    width:45%;
+    transition: 0.3s ease;
+}
+img.guidebook:hover {
+    transform: scale(1.2,1.2);
+    opacity: 1.1;
+}
+img.guidebook3 {
+    position: relative;
+    width:45%;
+    transition: 0.3s ease; 
+}
+img.guidebook3:hover {
+    transform: scale(1.2,1.2);
+    opacity:1.1;
+}
+span.guidebook2 {
+    position:relative;
+    font-family: 'Sansita', sans-serif;
+    font-size: 50px;
+}
+span.guidebook4 {
+    position: relative;
+    display:block;
+    max-width:400px;
+}
+
+/* Slideshow css
+
+
+
+*/
+#slideshow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+#slideshow > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+/* Section 3
+
+
+*/
+span.heading {
+  position:relative;
+  font-family: 'Sansita', sans-serif;
+  font-size: 50px;
+}
+.hr2 {
+    width:10%;
+    border-color:black;
+}
+img.img1 {
+  position:relative;
+  top:50px;
+  width:300px;
+  height:510px;
+  float:right;
+  margin-right:350px;
+  opacity: 1;
+  transition: 0.3s ease;
+}
+img.img1:hover {
+    transform: scale(1.1, 1.1);
+    opacity: 1;
+    z-index:1;
+}
+img.img2 {
+  position:relative;
+  top:50px;
+  float:right;
+  margin:0;
+  padding:0;
+  opacity:1;
+  transition: 0.5s ease;
+  width:300px;
+  height:510px;
+}
+img.img2:hover {
+    z-index:1;
+    transform: scale(1.1, 1.1);
+    opacity: 1;
+}
+/* Section 4
+
+
+*/
+.morecontent span {
+	display: none;
+}
+.more {
+    display:block;
+    max-width:500px;
+}
+/* Section 5
+
+
+*/
+.icon1 {
+  display:block;
+  max-width:400px;
+  
+}
+.icon1 img {
+  width:30%;
+  float:left;
+  transition:0.8s ease;
+}
+.icon1 img:hover {
+  transform:rotate(360deg);
+}
+.icon1 p {
+  text-align:right;
+  font-size:24px;
+}
+.row{
+  position:relative;
+  top:100px;
+}
