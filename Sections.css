@@ -1,46 +1,37 @@
 div.section2 {
     position:relative;
-    top:900px;
+    top:1000px;
     margin-top: 200px;  
 }
 div.section3 {
-  position:relative;
-  top:1200px;
+    position:relative;
+    top:1100px;
+    display: table;
+    height: 100%;
+    width:100%;
 }
 div.section35 {
     position:relative;
-    top:1900px;
+    top:1100px;
     height:25%;
     background-color:whitesmoke;
     box-sizing: border-box;
 } 
-.video {
-    margin:0;
-    padding:0;
-    position: relative;
-    bottom:500px;
-    font-size:0;
-    left:38%;
-}
-.hello {
-    position:relative;
-    bottom:500px;
-    display:block;
-    max-width: 380px;
-    font-size:12px;
-}
 div.section4 {
-  position:relative;
-  top:1800px;
+    position:relative;
+    top:1300px;
   
 }
 div.section5 {
     position:relative;
-    top:2000px;
-    background-image: url('images/se.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height:60%;
+    top:1800px;
+	background: url(images/se.jpg) no-repeat 0px 0px;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	min-height: 750px;
+	padding: 5em 0;
     color:white;
 }
 div.section5 h1 {
@@ -50,12 +41,9 @@ div.section5 h1 {
     font-size: 50px;
 }
 div.section6 {
-  padding: 0;
-  margin: 0;
   position:relative;
-  top:2000px;
-  background-color:black;   
-  color:gray;
+  top:1800px;
+
 }
 
 

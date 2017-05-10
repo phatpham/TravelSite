@@ -1,11 +1,19 @@
+img.logo { 
+    position:absolute;
+    top:10px;
+    left:48%;
+    width:7%;
+    padding-bottom:20px;
+    z-index: 2;
+}
 .navbar {
   position:absolute;
-  z-index:1;
 }
 div.navbar ul {
-	position:absolute;	
-	top:20px;
-    width:105%;
+	position:absolute;		
+	top:29px;
+   right:100px;
+	width:100%;
 	list-style-type:none; 
 	margin:0;
   padding: 0;
@@ -15,40 +23,25 @@ ul li {
 	float: right;
 }
 li a {
-    
-	display:inline-block;
-	color:white;
+	color:black;
 	background-color:none;
-  font-family: 'Libre Baskerville', serif;
-  text-decoration:none;
-	font-size:16px;
-    padding: 20px 15px;
-	transition:0.8s ease;
-}
-li a:hover {
-	background-color:lightblue;
-}
-
-div.navbar li a{
-	  color:white;
-	  background-color:none;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    text-decoration:none;
-    line-height: 40px;
-	  font-size:18px;
-    padding: 22px 20px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+   text-decoration:none;
+	font-size:18px;
+    padding: 22px 17px;
     transition:0.8s ease;
 }
-div.navbar li a:hover {
-    color:whitesmoke;
+li a:hover {
+    color:lightgray;
     text-decoration: none;
 }
+.icon {
+    display:none;
+}
 .searchbar {
-    position: ab;
-    left:0px;
-    top:5px;
-    width: 150px;
-    height:60px;
+    position: relative;
+    left:320px;
+    width: 130px;
     box-sizing:border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
@@ -62,17 +55,14 @@ div.navbar li a:hover {
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
-input.searchbar:focus {
+input[type=text]:focus {
     width: 17%;
-}
-ul li {
-  list-style-type:none;
 }
 .icon {
     display:none;
 }
-@media (max-width:780px) {
-    img.logo, .searchbar {
+@media (max-width:960px) {
+   img.logo, .searchbar {
         display:none;
     }
     div.navbar ul li:not(:first-child) {
@@ -87,11 +77,12 @@ ul li {
     div.navbar a.icon {
        float: right;
        display: block;
-        color: white;
+        color: black;
         font-size: 25px;
     }
     div.navbar li a {
       padding:0px;
     }
     
+}
 }
