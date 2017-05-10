@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>New Website</title>
+        <!--This website and other pages in this project is built based on Lonely Planet (Appearance Only)-->
+        <title>Vietnam Tourism</title>
         <link rel="stylesheet" href=navbar1.css>
         <link rel="stylesheet" href=image.css>
         <link rel="stylesheet" href="Randomstyle.css">
         <link rel="stylesheet" href="Sections.css">
+        <link href='footer.css' rel="stylesheet">
+        <link rel="icon" href="images/logo-timelesscharm-1024.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lato|Sansita" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet"> 
@@ -15,49 +19,98 @@
         <script src="Javascript.js"></script>
     </head>
     <body>
-      <div class='section1'>
+        
+        <div class='section1'>
 
-
-        <div id="background-carousel">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators --> 
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-          </ol>
-           <div class="carousel-inner">
-              <div class="item active" id='firstimage' style="background-image:url('images/Slider/Carousel1.jpg');width:100%;height:100%;">
-                  <div class='slider1'>
+            <div id="background-carousel">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+              </ol>
+               <div class="carousel-inner">
+                  <div class="item active" id='firstimage' style="background-image:url('images/Slider/Carousel3.jpg');width:100%;height:100%;">
+                      <div class='slider1'>
+                          <b><p class='carouseltext'>Featured Article:</p>
+                        <span id='special' class='carouseltext2'>Explore Vietnam's streetart in SaiGon City</span></b>
+                      </div>  
+                  </div>
+                  <div class="item" style="background-image:url('images/Slider/Carousel2.jpg');width:100%;height:100%;">
+                      <div class='slider1'>
+                          <b><p class='carouseltext'>Featured Article:</p>
+                        <span class='carouseltext2'>RELEASE A LANTERN INTO THE NIGHT SKY IN VIETNAM IN SEPTEMBER</span></b>
+                      </div>   
+                  </div>
+                  <div class="item" style="background-image:url('images/Slider/Carousel1.jpg');width:100%;height:100%;">
+                        <div class='slider1'>  
+                            <b><p class='carouseltext'>Featured Article:</p>
+                            <span class='carouseltext2'>Beyond Halong Bay: lesser-known highlights of northeast Vietnam</span></b>
+                        </div>
+                   </div>
+                  <div class="item" style="background-image:url('images/Slider/Carousel4.jpg');width:100%;height:100%;">
+                      <div class='slider1'>  
                       <b><p class='carouseltext'>Featured Article:</p>
-                    <span id='special' class='carouseltext2'>Beyond Halong Bay: lesser-known highlights of northeast Vietnam</span></b>
-                  </div>  
-              </div>
-              <div class="item" style="background-image:url('images/Slider/Carousel2.jpg');width:100%;height:100%;">
-                  <div class='slider1'>
-                      <b><p class='carouseltext'>Featured Article:</p>
-                    <span class='carouseltext2'>RELEASE A LANTERN INTO THE NIGHT SKY IN VIETNAM IN SEPTEMBER</span></b>
-                  </div>   
-              </div>
-              <div class="item" style="background-image:url('images/Slider/Carousel3.jpg');width:100%;height:100%;"></div> 
-              <div class="item" style="background-image:url('images/Slider/Carousel2.jpg');width:100%;height:100%;"> c</div>
+                        <span class='carouseltext2'>Enjoy festivals that will blow your mind</span></b>
+                     </div>  
+                  </div>
+                </div>
             </div>
-    </div>
-</div>
+            </div>
 
 
- <div id="content-wrapper">
-<!-- PAGE CONTENT -->
-    <div class="container">
-        <img src='images/logo-timelesscharm-1024.png' class=logo>
-       
-    </div><!-- End Container -->
-<!-- PAGE CONTENT -->
-</div>
-</div>
+         <div id="content-wrapper">
+            <div class="container">
+                <img src='images/logo-timelesscharm-1024.png' class=logo>
+                 <div class="navbar">
+                  <ul>
+                    <input type="text" name="search" placeholder="Search.." class='searchbar'>
 
-    
+                      <li>
+                        <a href="../Home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="ShoppingHome/shophome.html">Shop</a>
+                    </li>
+                    <li>
+                        <a href="Articles/Articles.html">Articles</a>
+                    </li>
+                    <li>
+                        <a href="Services/Flight/Services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href='#bottom'>Contact Us</a>
+                    </li>
+                    <img src='images/logo-timelesscharm-1024.png' class=logo2>
+                    <a href='javascript:void(0);' class='icon'><i class="fa fa-bars"></i></a>
+
+                  </ul>
+                </div>
+                <div class='responsive-nav'>
+                    <ul>
+                    <li>
+                        <a href="Home.html"><p>Home</p></a>
+                    </li>
+                    <li>
+                        <a href="ShoppingHome/shophome.html"><p>Shop</p></a>
+                    </li>
+                    <li>
+                        <a href="Articles/Articles.html"><p>Articles</p></a>
+                    </li>
+                    <li>
+                        <a href="Flight/Services.html"><p>Services</p></a>
+                    </li>
+                    <li>
+                        <a href='#bottom'><p>Contact Us</p></a>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+
         <div class=section2>
             <div class="container-fluid">
                 <div class="row">
@@ -69,7 +122,7 @@
                             <div class="centerguide">
                                 <h1>Vietnam guidebook</h1>
                                 <span class=guidebook4><p>"#1 best-selling guide to Vietnam Lonely Planet Vietnam is your passport to the most relevant, up-to-date advice on what to see and skip, and what hidden discoveries await you. Eat, drink and shop til you drop in beautiful, ancient Hoi An; kite surf in Mui Ne; or visit the impressive pagodas and royal tombs of Hue..."        </p>
-                                 <a href="https://wordery.com/vietnam-lonely-planet-9781743218723?currency=GBP&gtrck=RmZNaThUQWpjZnhoVnpFalpNRHFLUHNNc05kQmQ4RmVWUkVJQ25VQXFMYmIrN3BzVFFicTFmNUY2VnZ1UjZTWHBub0dwRU9kR2N4VnhhMWxmTTU1aVE9PQ&gclid=CjwKEAiAoaXFBRCNhautiPvnqzoSJABzHd6hJsY_3sZbtXee6-flk7ppcj9ft5i0aqdAT5r0KEFlvRoCfK3w_wcB">Buy The Book ></a>
+                                 <a href="Shopping/Shop.css">Buy The Book ></a>
                                 </span>
                             </div>    
                        </center>   
@@ -82,24 +135,43 @@
                 </div>
             </div>
         </div>    
+        
         <div class=section3>
-            <center><span class=heading><p>Travel inspiration</p></span></center>
-            <hr class=hr2>
-            <a href=#soon><img src="images/s20130121-vietnamese-dishes-pho2-primary2.jpg" class=img1></a>
-            <a href=#soon><img src="images/svietnam-sightseeing-tours2.jpg" class=img2></a>
-            <a href=#soon><img src="images/SSouvenir-Shop-in-Ho-Chi-Minh-City-Vietnam-DSC-77842.jpg" class=img2></a>
-            <a href=#soon><img src="images/jennifer-noi-dung-mot-khi-nang-ta-van-yeu-chang.jpg" class=img2></a>  
+            <div class='inner-section3'>
+                <div class='inner-inner-section3'>
+                    <h3 class='heading'>Travel Inspriration</h3>
+                    <div class="col-md-12">
+                        <div class="carousel slide" id="imgslider">
+                          <div class="carousel-inner">
+                            <div class="item active">
+                              <div class="col-xs-3"><a href="Articles/Articles.html"><img src='images/SSouvenir-Shop-in-Ho-Chi-Minh-City-Vietnam-DSC-77842.jpg' class="img-responsive"></a></div>
+                              <div class="col-xs-3"><a href="Articles/Articles.html"><img src="images/s20130121-vietnamese-dishes-pho2-primary2.jpg" class="img-responsive"></a></div>
+                              <div class="col-xs-3"><a href="Articles/Articles.html"><img src="images/JulienMalland3.jpg" class="img-responsive"></a></div>
+                              <div class="col-xs-3"><a href="Articles/Articles.html"><img src="images/3.jpg" class="img-responsive"></a></div>
+                            </div>
+                            <div class="item">
+                              <div class="col-xs-3"><a href="Articles/Articles.html"><img src="images/Backpacking.jpg" class="img-responsive"></a></div>
+                              <div class="col-xs-3"><a href="Articles/Articles.html"><img src="images/3d-museum.jpg" class="img-responsive"></a></div>
+                              <div class="col-xs-3"><a href="Articles/Articles.html"><img src="images/svietnam-sightseeing-tours2.jpg" class="img-responsive"></a></div>
+                              <div class="col-xs-3"><a href="Articles/Articles.html"><img src="images/jennifer-noi-dung-mot-khi-nang-ta-van-yeu-chang.jpg" class="img-responsive"></a></div>
+                            </div>
+                          </div>
+                          <a class="left carousel-control" href="#imgslider" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                          <a class="right carousel-control" href="#imgslider" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>    
+            </div>
         </div>
         <div class=section35>
             <video class='video' width="500" height="250" controls autoplay muted>
               <source src="video/Vietnamvideo.mp4" type="video/mp4">
             </video>
-            <center>
-                <p class=hello>
+            <br>
+             <p style='text-align:center;font-size:12px;'>
                     "Vietnam is famous for it's terraced rice fields in Sapa, North Vietnam and their busy cities like Hanoi and Saigon. 
 It truly is one of the most beautiful countries I've even been to."
-                </p>
-            </center>
+            </p>
         </div>
         <div class=section4>
             <div class="container-fluid">
@@ -113,7 +185,7 @@ It truly is one of the most beautiful countries I've even been to."
                     </div>
                     <div class="col-sm-6">
                         <figure>
-                            <img src="images/ho-chi-minh-mausoleum-hanoi-vietnam.jpg" style="width:800px">
+                            <img src="images/ho-chi-minh-mausoleum-hanoi-vietnam.jpg" class='HCM'>
                             <figcaption style="color:darkgray;font-size:14px"><strong>Ho Chi Minh Mausoleum</strong> in Ba Dinh Square is one of the most visited attractions in Hanoi</figcaption>            
                         </figure>    
                     </div>
@@ -127,30 +199,36 @@ It truly is one of the most beautiful countries I've even been to."
                   <center><div class='col-sm-4'>
                     <div class=icon1>
                       <img src='images/Icon-book.png'>
-                      <p> BlaBlah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blahh Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
+                      <a class='servicelink'>Learn about Vietnam</a>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra risus quis mi posuere, at ornare leo ultrices. Vivamus rhoncus malesuada sapien.</p>
                       <br><br><br>
-                      <img src='images/Icon-Hotel.png'>
-                       <p> Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah BlahBlah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
+                      <a href='Services/Hotel/Hotel.html'><img src='images/Icon-Hotel.png'></a>
+                        <a class='servicelink'>Places to stay</a>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra risus quis mi posuere, at ornare leo ultrices. Vivamus rhoncus malesuada sapien.</p>
                       <br><br><br>
                     </div>
                   </div></center>
                   <center><div class='col-sm-4'>
                       <div class=icon1>
                         <img src='images/Icon-Money.png'>
-                        <p> Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
+                        <a class='servicelink'>Manage your budget</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra risus quis mi posuere, at ornare leo ultrices. Vivamus rhoncus malesuada sapien.</p>
                         <br><br><br>
-                        <img src='images/Icon-Plane.png'>
-                        <p> Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah BlahBlah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
+                        <a href='Services/Flight/Services.html'><img src='images/Icon-Plane.png'></a>
+                        <a class='servicelink'>Book your flight</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra risus quis mi posuere, at ornare leo ultrices. Vivamus rhoncus malesuada sapien.</p>
                         <br><br><br>
                       </div>
                   </div></center>
                     <center><div class='col-sm-4'>
                       <div class=icon1>
-                        <img src='images/Icon-Backpack.png'>
-                        <p> Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah BlahBlah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
+                        <img src='images/Icon-Backpack.png' style='width:35%'>
+                        <a class='servicelink'>Pack your things</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra risus quis mi posuere, at ornare leo ultrices. Vivamus rhoncus malesuada sapien.</p>
                         <br><br><br>
                         <img src='images/Icon-Weather.png'>
-                        <p> Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah BlahBlah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
+                        <a class='servicelink'>Weather forecast</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra risus quis mi posuere, at ornare leo ultrices. Vivamus rhoncus malesuada sapien.</p>
                         <br><br>
                       </div>
                     </div>
@@ -161,14 +239,111 @@ It truly is one of the most beautiful countries I've even been to."
                                                             
             </div>
             <div class='section6'>
-              <div class='container-fluid' style="background-color:red">
-                <div class='row' style="background-color:red">
-                  <div class='col-sm-3'>
-                    <div>SSS</div>
-                   
-                  </div>
+                <div class='wrapper'>
+                    <div class='samplearticle'>
+                        <div class='part1'>
+                            <div class=text>
+                                <h3>Places to stay that will blow your mind</h3>
+                                <br>
+                                <p>You know that old adage ‘it’s about the journey not the destination’? Well, that just doesn’t apply here. Each and every one of these spectacular places to stay is a destination in its own right.</p>
+                            </div>
+                            <div class='miniimage'>
+                                <img src="Filler/GettyImages-594330577-dcc33b25fc13.jpg" style='height="160px;width:110px;'>
+                            </div>
+                        </div>
+                        <hr width=63% align='left'>
+                        <div class='part2'>
+                            <div class=text>
+                                <h3>Places to stay that will blow your mind</h3>
+                                <br>
+                                <p>You know that old adage ‘it’s about the journey not the destination’? Well, that just doesn’t apply here. Each and every one of these spectacular places to stay is a destination in its own right.</p>
+                            </div>
+                            <div class='miniimage'>
+                                <img src="Filler/MAD0505-aabadaa5bcdc.jpg" style='height="160px;width:110px;'>
+                            </div>
+                        </div>
+                        <hr width=63% align='left'>
+                        <div class='part3'>
+                            <div class=text>
+                                <h3>Places to stay that will blow your mind</h3>
+                                <br>
+                                <p>You know that old adage ‘it’s about the journey not the destination’? Well, that just doesn’t apply here. Each and every one of these spectacular places to stay is a destination in its own right.</p>
+                            </div>
+                            <div class='miniimage'>
+                                <img src="Filler/swissplane-da2a8af60673.jpg" style='height="160px;width:110px;'>
+                            </div>
+                        </div>
+                        <hr width=63% align='left'>
+                        <div class='part4'>
+                            <div class=text>
+                                <h3>Places to stay that will blow your mind</h3>
+                                <br>
+                                <p>You know that old adage ‘it’s about the journey not the destination’? Well, that just doesn’t apply here. Each and every one of these spectacular places to stay is a destination in its own right.</p>
+                            </div>
+                            <div class='miniimage'>
+                                <img src="Filler/shutterstock_130814792-0d5f5c02f028.jpg" style='height="160px;width:110px;'>
+                            </div>
+                        </div>
+                        <hr width=63% align='left'>
+                        <div class='part5'>
+                            <div class=text>
+                                <h3>Places to stay that will blow your mind</h3>
+                                <br>
+                                <p>You know that old adage ‘it’s about the journey not the destination’? Well, that just doesn’t apply here. Each and every one of these spectacular places to stay is a destination in its own right.</p>
+                            </div>
+                            <div class='miniimage'>
+                                <img src="Filler/amazing-views.jpg" style='height="160px;width:110px;'>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="advertisement">
+                        <p class='lasttext'>Advertisement</p>
+                        <img src="Filler/300x600_PROSPECTING_PHG_ENE2017.gif" style='width:300px'>
+                    </div>
                 </div>
-              </div>
-
             </div>
+        <footer class='footer'>
+                  <div class='column1'>
+                    <p class='column1head'>Vietnam<span>Tourism</span></p>
+                    <p class="links">
+                        <a href="#">Home</a>
+                        ·
+                        <a href="#">Articles</a>
+                        ·
+                        <a href="#">Services</a>
+                        ·
+                        <a href="#">About</a>
+                        ·
+                        <a href="#">Faq</a>
+                        ·
+                        <a href="#">Contact</a>
+                      </p>
+                  </div>
+                  <div class='column2'>
+                    <div>    
+                        <i class="fa fa-map-marker"></i>
+                        <p><span>Buchanan Gardens</span><br>St Andrews KY16 9LY</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <p>+1 234 567890</p>
+                    </div>
+
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <p><a href="mailto:support@company.com">support@company.com</a></p>
+                    </div>  
+                  </div>
+                  <div class='column3'>
+                    <p class='head'>About us</p>
+                    <p class='content'>Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet. </p>
+                    <div class="icons">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-commenting"></i></a>
+                        <a href="#"><i class="fa fa-map"></i></a>
+                    </div>
+                </div>
+        </footer>
+    </body>
 </html>
