@@ -1,0 +1,67 @@
+img.logo { 
+    position:absolute;
+    top:10px;
+    left:48%;
+    width:7%;
+    padding-bottom:20px;
+    z-index: 2;
+}
+.navbar {
+    position:absolute;
+    background-color: #1d508d;
+    height:125px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.icon {
+    display:none;
+}
+div.navbar ul {
+	position:absolute;		
+	top:29px;
+  right:100px;
+	width:100%;
+	list-style-type:none; 
+	margin:0;
+  padding: 0;
+	background-color:none;
+}
+div.navbar ul li {
+  padding-top:10px;
+	float: right;
+}
+div.navbar li a {
+	color:white;
+	background-color:none;
+  font-family: "Helvetica", sans-serif;
+   text-decoration:none;
+	font-size:18px;
+    padding: 22px 17px;
+    transition:0.4s ease;
+}
+div.navbar li a:hover {
+    opacity:0.6;
+    text-decoration: none;
+}
+.searchbar {
+    position: relative;
+    top:10px;
+    left:320px;
+    width: 130px;
+    box-sizing:border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('http://www.clipartkid.com/images/775/search-icon-clip-art-at-clker-com-vector-clip-art-online-royalty-643l5L-clipart.png');
+    background-position: 10px 10px;     
+    background-size: 10%;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input.searchbar:focus {
+    width: 17%;
+}
+

@@ -1,0 +1,161 @@
+html, body {
+    width: 100%;
+}
+.mainbody {
+    width:85%;
+    margin: 0 auto;
+}
+#part1 {
+    display: inline-block;
+    width:20%;
+}
+.part15 {
+    display: none;
+    width: 20%;
+}
+.part2 {
+    display: inline-block;
+    width:75%;
+    vertical-align: top;
+}
+div#space {
+    position:relative;
+    bottom:20px;
+    height:auto;
+    min-height:100px;
+    background-color: #124385;
+}
+#imgslider {
+    min-height: 250px;
+}
+/* Navigation 
+
+*/
+div.navigations {
+    height:50px;
+    width:100%;
+    float:left;
+    padding:0;
+    border-radius:5px;
+}
+div.navigations ul {
+    list-style-type:none;  
+    width:100%;
+    background-color:#8537a8;
+}
+div.navigations ul li {
+    float:left;
+    border: 1px dashed #bc42f4;
+    padding: 10px 10px;
+    background-color:#8537a8;
+    height:40px;
+    text-align:center;
+
+}
+div.navigations ul li.nav-item-short {
+    width:13%;
+}
+div.navigations ul li.nav-item-long {
+    width:16%;
+}
+div.navigations ul li a {
+    color:white;
+}
+div.navigations ul li:hover {
+    background-color:#7b28a0;
+}
+div.navigations ul li a:hover {
+    text-decoration:none;
+    cursor: pointer;
+}
+.icon-search {
+    height:30px;
+    vertical-align:top;
+}
+/* Part 1
+
+*/
+.its4amalready {
+    background-color: #fdedd4;
+    width: 100%;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.its4amalready a {
+    padding: 10px 16px;
+    color: #252525;
+    font-size:14px;
+    text-decoration: none;
+    display: block;
+}
+.its4amalready a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+}
+/* Section 3
+
+*/
+div.section3 {
+    position: relative;
+    top:100px;
+}
+.icon1 {
+    overflow: hidden;
+}
+.icon1 img {
+    transition: 0.3s ease;
+    max-width: 100%;
+    z-index: -1;
+}
+.icon1 img:hover {
+    transform: scale(1.1,1);
+}
+.servicelink {
+    z-index: 1;
+    color:white;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    background: #0095c8;
+}
+.img-responsive a {
+    z-index:1;
+}
+.fixedtop {
+    position: fixed;
+    top:0;
+}
+.fixedbottom {
+    position: fixed;
+    bottom:0;
+}
+#CarouselS {
+    width:100%;
+    margin-left: 40px;
+}
+@media screen and (max-width :960px) {
+    div.navigations{
+        display: none;
+    }
+    #part1 {
+        display: none;
+    }
+    .part15 {
+        display: none;
+    }
+    .part2 {
+        width: 100%;
+    }
+    .servicelink {
+        width:50%;
+    }
+    .mainbody {
+        width:100%;
+    }
+    .fixedtop, .fixedbottom {
+        position: static;
+        top:auto;
+        bottom: auto;
+    }
+}

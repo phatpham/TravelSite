@@ -1,0 +1,274 @@
+
+div#mainbody {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#space {
+    position:relative;
+    bottom:20px;
+    height:auto;
+    min-height:100px;
+    background-color: #124385;
+}
+
+/* Navigation 
+
+*/
+div.navigations {
+    height:50px;
+    width:100%;
+    float:left;
+    padding:0;
+    border-radius:5px;
+}
+div.navigations ul {
+    list-style-type:none;  
+    width:100%;
+    background-color:#8537a8;
+}
+div.navigations ul li {
+    float:left;
+    border: 1px dashed #bc42f4;
+    padding: 10px 10px;
+    background-color:#8537a8;
+    height:40px;
+    text-align:center;
+
+}
+div.navigations ul li.nav-item-short {
+    width:13%;
+}
+div.navigations ul li.nav-item-long {
+    width:16%;
+}
+div.navigations ul li a {
+    color:white;
+}
+div.navigations ul li:hover {
+    background-color:#7b28a0;
+}
+div.navigations ul li a:hover {
+    text-decoration:none;
+    cursor: pointer;
+}
+.icon-search {
+    height:30px;
+    vertical-align:top;
+}
+/* Section2 
+
+*/
+.section2 {
+    position: relative;
+    top:30px;
+}
+/* Column1 
+
+*/
+div.previews {
+    width:20%;
+    display: inline-block;
+}
+.img-preview {
+    padding-top:20px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    height: 230px;
+}
+div.part1 a {
+    text-decoration: none;
+    
+}
+
+/* Column2 
+
+*/
+div.infomation {
+    width:40%;
+    display: inline-block;
+    vertical-align: top;
+}
+div.box {
+    border: 1px solid gray;
+    max-height: 150px;
+}
+div.item-type {
+    display: inline-block;
+    width: 35%;
+}
+div.item-price {
+    display: inline-block;
+    width:30%;
+}
+div.add-to-cart {
+    display: inline-block;
+    width: 30%;
+}
+.add-button {
+    margin: 5px;
+    vertical-align: bottom;
+}
+.related1, .related2, .related3 {
+    display: inline-block;
+    width:32%; 
+    vertical-align: top;
+    min-height:230px;
+}
+.related1:hover, .related2:hover, .related3:hover {
+    background-color: #e3f3ff;
+}
+.product1, .product2, .product3 {
+    height:150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.link1, .link2, .link3 {
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+/* Column3 
+
+*/
+div.extra {
+    width:33%;
+    display: inline-block;
+    vertical-align: top;
+}
+div.wrapper {
+    display:none;
+}
+.faqclick {
+    background-color: #e3f3ff;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+}
+.faq-content {
+    width: 100%;
+    display: none;
+    position: relative;
+    background-color: #e3f3ff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 0;
+}
+.faq-content a.norm, .faq-content a.first {
+    padding: 8px 16px;
+    color: #0077cc;
+    font-size:12px;
+    text-decoration: none;
+    display: block;
+}
+.faq-content a:hover {
+    text-decoration: underline;
+}
+.faq-content a.first {
+    border-top: 1px solid white;
+}
+.faq-content a.contact {
+    text-decoration: none;
+}
+.inner-wrapper {
+    width: 100%;
+    background-color: #f6f6f6;
+}
+.inner-inner-wrapper {
+    width: 95%;
+    margin-left: auto;
+}
+.shoppingcart {
+    background-color: rgb(84, 43, 119);
+    color: white;
+    height:30px;
+    border-radius: 4px;
+}
+.carttitle{
+    height:15px;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 13px;
+}
+.fa-times:hover {
+    color:red;
+}
+.promocode {
+    background-color: #eee1f9;
+    border-radius: 4px;
+    width:95%;
+    height: 30px;
+}
+.code {
+    width:40%;
+    vertical-align: bottom;
+}
+.offers {
+    display:block;
+    font-size:12px;
+    background-color: #eee1f9;
+    color:#683597;
+    position: relative;
+    width:100%;
+    padding: 20px 14px;
+}
+.submitbutton {
+    color:black;
+    padding-left: 13px;
+    text-shadow: 1px 1px 1px white;
+}
+.invalid, .used {
+    color: red;
+}
+.valid {
+    color: #409c20;
+}
+.subtotal, .subtotalprice {
+    display: inline-block;
+    vertical-align: bottom;
+    font-weight: bold;
+}
+.subtotal {
+    width: 75%;
+}
+.discount {
+    float:right;
+    color:red;
+    font-weight:bold;
+}
+.dropbtn {
+    width:40%;
+    margin-bottom: 23px;
+}
+#delivery{
+    float: left;    
+}
+.deliveryfee {
+    width: 25%;
+    float: right;
+    font-weight: bold;
+}
+.total, .totalnumber {
+    display: inline-block;
+    font-weight: bold;
+}
+.total {
+    width:75%;
+}
+.checkout {
+    color: white;
+    padding: 10px 15px;
+	background-color: #d198e2;
+    border-radius: 4px;
+	border: 1px solid #be4ce0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 50%;
+}
+.checkout:hover {
+    background-color: #c670e0;
+}
