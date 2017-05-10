@@ -1,0 +1,383 @@
+#special {
+    display: none;
+}
+#firstimage {
+        -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+  @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+.load {
+     opacity: 1;
+}
+#background-carousel{
+	position:absolute;
+	top:0;
+	width:100%;
+	height:100%;
+	z-index:-1;
+}
+.carousel,
+.carousel-inner{
+	width:100%;
+	height:100%;
+	z-index:0;
+	overflow:hidden;
+}
+.item {
+	width:100%;
+	height:100%;
+	background-position:center;
+	background-size:cover;
+	z-index:0;
+}
+ 
+#content-wrapper {
+	position:absolute;
+	top:0;
+	z-index:1;
+	min-width:100%;
+	min-height:100%;
+}
+.well {
+    opacity:0.85;
+}
+img.logo { 
+    position:absolute;
+    top:0;
+    left:47%;
+    width:7%;
+    padding-bottom:20px;
+    
+}
+.hr1{
+    position:absolute;
+    top:90px;
+    z-index:1;
+    width:75%;
+    border-color:gray;
+}
+.slider1 {
+    position:absolute;
+    z-index: 3;
+    top:400px;
+    left:50px;
+    font-size:100px;
+}
+.carouseltext {
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size:30px;
+}
+.carouseltext2 {
+    color:whitesmoke;
+    display:block;
+    max-width: 60%;
+    font-family: 'Open Sans', sans-serif;
+    font-size:65px;
+}
+/* Section 2
+
+
+
+*/
+div.centerguide {
+    font-size:20px;
+}
+img.guidebook {
+    position:relative;
+    width:45%;
+    transition: 0.3s ease;
+}
+img.guidebook:hover {
+    transform: scale(1.2,1.2);
+    opacity: 1.1;
+}
+img.guidebook3 {
+    position: relative;
+    width:45%;
+    transition: 0.3s ease; 
+}
+img.guidebook3:hover {
+    transform: scale(1.2,1.2);
+    opacity:1.1;
+}
+span.guidebook2 {
+    position:relative;
+    font-family: 'Sansita', sans-serif;
+    font-size: 50px;
+}
+span.guidebook4 {
+    position: relative;
+    display:block;
+    max-width:400px;
+}
+
+/* Slideshow css
+
+
+
+*/
+#slideshow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+#slideshow > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+/* Section 3
+
+
+*/
+.inner-section3 {
+    display: table-cell;
+    vertical-align: middle;
+}
+.inner-inner-section3 {
+    margin-left: auto;
+    margin-right: auto; 
+    width: 80%;
+}
+.heading {
+  position:relative;
+  font-family: 'Sansita', sans-serif;
+  font-size: 50px;
+    text-align: center;
+}
+.hr2 {
+    width:10%;
+    border-color:black;
+}
+.TI-image1, .TI-image2, .TI-image3 {
+    width:24%;
+    display: inline-block;
+}
+.TI-image2, .TI-image3 {
+    display:none;
+}
+.img-responsive {
+    width: 100%;
+    opacity: 0.8;
+    transition: 0.4s ease;
+}
+.img-responsive:hover {
+    transform: scale(1.1, 1.1);
+    opacity: 1;
+    z-index:1;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+img.img2 {
+    opacity:1;
+    transition: 0.5s ease;
+    width:100%;
+    height: 40%;
+}
+img.img2:hover {
+    z-index:1;
+    transform: scale(1.1, 1.1);
+    opacity: 1;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/* Section 4
+
+
+*/
+.HCM {
+    width: 100%;
+    height: auto;
+}
+.morecontent span {
+	display: none;
+}
+.more {
+    display:block;
+    max-width:500px;
+}
+/* Section 5
+
+
+*/
+.icon1 {
+    display:block;
+    max-width:400px;
+  
+}
+.icon1 img {
+    width:30%;
+    float:left;
+    transition:0.8s ease;
+}
+.icon1 img:hover {
+    transform:rotate(360deg);
+    cursor: pointer;
+}
+.icon1 a {
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:23px;
+    transition: 0.4s ease;
+}
+.icon1 a:hover {
+    color:#2aaacb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.icon1 p {
+    color:#d3d3d3;
+    text-align:right;
+    font-size:17px;
+}
+.row{
+    position:relative;
+    top:100px;
+}
+/* Section 6
+
+*/
+.wrapper {
+    padding-top: 200px;
+    width:80%
+}
+.samplearticle {
+    position: relative;
+    display: inline-block;
+    width: 70%;
+    left: 300px;
+}
+#advertisement {
+    padding-left: 300px;
+    vertical-align: top;
+    display: inline-block;
+    width: 20%;
+}
+.text {
+    display: inline-block;
+    width: 55%;
+    max-width: 50%;
+    padding-right: 50px;
+    margin-right: 50px;
+}
+.miniimage {
+    display: inline-block;
+    width:15%;
+    vertical-align: bottom;
+}
+.lasttext {
+    text-align: center;
+    width: 300px;
+    background-color: whitesmoke;
+    padding:5px;
+    margin-bottom: -5px;
+}
+.fixedtop {
+    position: fixed;
+    top:0;
+}
+.fixedbottom {
+    position: fixed;
+    bottom:0;
+}
+.video {
+    margin:0;
+    padding:0;
+    position: relative;
+    font-size:0;
+    left:38%;
+}
+.responsive-nav {
+    display: none;
+    padding: 0;
+    width: 100%;
+}
+.responsive-nav ul li {
+    list-style-type: none;
+    padding: 4px;
+}
+.responsive-nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+.responsive-nav ul li a p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    padding-right: 10px;
+}
+
+.logo2 {
+    display: none;
+    position: relative;
+    left:40%;
+    width: 15%;
+}
+@media screen and (max-width: 800px) {
+    .HCM {
+        width: 100%;
+    }
+    #advertisement {
+        display: none;
+    }
+    .samplearticle {
+        left:0;
+        width:100%;
+    }
+    .text {
+        width:80%;
+        padding: 0;
+        margin:0;
+        max-width: 80%;
+    }
+    .miniimage {
+        vertical-align: top;
+        width: 18%;
+    }
+    .video {
+        width:100%;
+        left:0;
+    } 
+    .logo2 {
+        display:block;
+        position: absolute;
+    }
+    .carouseltext2 {
+        max-width: 100%;
+    }
+}
